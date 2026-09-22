@@ -7,7 +7,6 @@ class Solution:
                 res.append([x, -x])
         if 0 in elements and arr.count(0) >= 2:
             res.append([0, 0])
-
         res.sort()
         return res
         
